@@ -1,0 +1,8 @@
+linux(centos)找回密码
+
+1.启动页面输入e
+2.linux16所在行最后输入 init=/bin/sh 按ctrl+c启动
+3.输入命令 mount -o remount,rw /
+4.输入passwd再设置密码
+5.执行touch /.autorelabel
+6.输入exec /sbin/init等待一段时间后自动重启电脑
