@@ -1,0 +1,16 @@
+git config --global user.name 用户名
+git config --global user.email 邮箱
+git init ->初始化
+git status ->查看状态
+git add filename ->添加文件
+git commit -m "说明" filename ->提交文件
+git push 地址 分支名称  ->提交到git仓库
+git pull 地址 ->从git仓库拉取文件
+git clone 地址 ->从git仓库克隆项目
+git remote -v ->查看远程地址
+git remote add 别名 地址  ->给地址加别名
+git reflog ->查看历史日志
+git log ->查看日志
+git reset --hard 版本号 ->版本穿梭
+
+ssh-keygen -t rsa -C 153129269@qq.com ->ssh免密登录生成公钥
